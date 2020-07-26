@@ -1,4 +1,4 @@
-### Hi there! I am Abhinavan Roy 👋
+### Hi there! I am Abhinavan Roy 👋 :smile:
 
 <!--
 **abhinavanRoy/abhinavanRoy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
