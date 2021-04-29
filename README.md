@@ -1,4 +1,5 @@
 ### Hey there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> 
+
 ![](https://visitor-badge.glitch.me/badge?page_id=abhinavanRoy.abhinavanRoy)
 
 
@@ -6,7 +7,7 @@ Hi, I'm Abhinavan Roy, a passionate self-taught Frontend Software engineer and a
 
 I am also an open-source enthusiast. I learned a lot from the open-source community and I love how collaboration and knowledge sharing happened through open-source.
 
-### Following are my Stats   <img src = "https://i.pinimg.com/originals/a6/c2/47/a6c247e6667eebefee85d1e38803b446.gif" width="40px">
+### Following are my Stats  <img src="https://img.icons8.com/nolan/64/statistics.png" width = "35px"/>
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=abhinavanRoy&show_icons=true&theme=algolia&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
