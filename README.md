@@ -1,5 +1,5 @@
 <h1 align="left" id="macropower-title"> Hello there! I'm Abhinavan Roy <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40px"> </h1>
-<h3 align="left">I am a Versatilist, doing SDE/SE Engineering things</h3>
+<h3 align="left">I am a Deviser, doing SDE/SE Engineering things</h3>
 
 <p align="left">
   <a href="https://github.com/abhinavanRoy">
