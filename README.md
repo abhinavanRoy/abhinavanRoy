@@ -27,123 +27,85 @@
 
 <br>
 
-<h2 align="left" id="macropower-tech">Favorite Tech</h2>
+<h2 align="left" id="abhinavanRoy-tech">Favorite Tech</h2>
 
 > Tools, languages, and other things that I like to work with.
 
 <table>
   <tr>
     <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="./img/csharp-original.svg" width="48" height="48" alt="C#" />
+      <a href="#abhinavanRoy-tech">
+        <img src="./img/c-original.svg" width="48" height="48" alt="C++" />
       </a>
-      <br>C#&nbsp;(Core)
+      <br>C++
     </td>
     <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="./img/python-original.svg" width="48" height="48" alt="Python" />
+      <a href="#abhinavanRoy-tech">
+        <img src="./img/mysql-original.svg" width="48" height="48" alt="MySql" />
       </a>
-      <br>Python
+      <br>MySql
     </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="./img/go-flat.svg" width="48" height="48" alt="Golang" />
-      </a>
-      <br>Go
-    </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="https://jsonnet.org/img/isologo.svg" width="48" height="48" alt="Jsonnet" />
-      </a>
-      <br>Jsonnet
-    </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech">
+     <td align="center" width="96">
+      <a href="#abhinavanRoy-tech">
         <img src="./img/typescript-original.svg" width="48" height="48" alt="TypeScript" />
       </a>
       <br>TypeScript
     </td>
     <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="./img/javascript-original.svg" width="48" height="48" alt="JavaScript" />
+      <a href="#abhinavanRoy-tech">
+        <img src="./img/javascript.svg" width="48" height="48" alt="JavaScript" />
       </a>
       <br>JavaScript
     </td>
     <td align="center" width="96">
-      <a href="#macropower-tech" >
-        <img src="./img/react-original.svg" width="48" height="48" alt="React" />
+      <a href="#abhinavanRoy-tech" >
+        <img src="./img/adobe-xd.svg" width="48" height="48" alt="Adobe XD" />
       </a>
-      <br>React
+      <br>Adobe XD
     </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="./img/bootstrap-plain.svg" width="48" height="48" alt="Bootstrap" />
+   <td align="center" width="96">
+      <a href="#abhinavanRoy-tech" >
+        <img src="./img/android-studio.svg" width="48" height="48" alt="Android Studio" />
       </a>
-      <br>Bootstrap
+      <br>Android Studio
     </td>
+  </tr>
     <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="./img/sass-original.svg" width="48" height="48" alt="Sass" />
+      <a href="#abhinavanRoy-tech">
+        <img src="./img/sass.svg" width="48" height="48" alt="Sass" />
       </a>
       <br>Sass
     </td>
-  </tr>
-  <tr>
+      <td align="center" width="96"> 
+      <a href="#abhinavanRoy-tech" >
+        <img src="./img/vsCode.svg" width="48" height="48" alt="VS Code" />
+      </a>
+      <br>VS Code
+    </td>
     <td align="center" width="96"> 
-      <a href="#macropower-tech" >
-        <img src="./img/docker-original.svg" width="48" height="48" alt="Docker" />
+      <a href="#abhinavanRoy-tech" >
+        <img src="./img/postgresql.svg" width="48" height="48" alt="PostgreSQL" />
       </a>
-      <br>Docker
+      <br>PostgreSQL
     </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech" >
-        <img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/kubernetes/icon/color/kubernetes-icon-color.svg" width="48" height="48" alt="Kubernetes" />
+   <td align="center" width="96"> 
+      <a href="#abhinavanRoy-tech" >
+        <img src="./img/git.svg" width="48" height="48" alt="Git" />
       </a>
-      <br>Kubernetes
+      <br>Git
     </td>
-    <td align="center"  width="96">
-      <a href="#macropower-tech">
-        <img src="./img/debian-original.svg" width="48" height="48" alt="Debian" />
+     <td align="center" width="96"> 
+      <a href="#abhinavanRoy-tech" >
+        <img src="./img/angular.svg" width="48" height="48" alt="Angular" />
       </a>
-      <br>Debian
+      <br>Angular
     </td>
-    <td align="center"  width="96">
-      <a href="#macropower-tech">
-        <img src="./img/redhat-original.svg" width="48" height="48" alt="RHEL" />
+     <td align="center" width="96"> 
+      <a href="#abhinavanRoy-tech" >
+        <img src="./img/html.svg" width="48" height="48" alt="HTML" />
       </a>
-      <br>RHEL
+      <br>HTML
     </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/ps_black_128.svg" width="48" height="48" alt="Powershell" />
-      </a>
-      <br>Powershell
-    </td>
-    <td align="center"  width="96">
-      <a href="#macropower-tech">
-        <img src="./img/mysql-original.svg" width="48" height="48" alt="MySQL" />
-      </a>
-      <br>MySQL
-    </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech" >
-        <img src="https://raw.githubusercontent.com/grafana/grafana/master/public/img/grafana_icon.svg" width="48" height="48" alt="Grafana" />
-      </a>
-      <br>Grafana
-    </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech" >
-        <img src="https://github.com/cncf/artwork/blob/master/projects/prometheus/icon/color/prometheus-icon-color.svg" width="48" height="48" alt="Prometheus" />
-      </a>
-      <br>Prometheus
-    </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech" >
-        <img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/thanos/icon/color/thanos-icon-color.svg" width="48" height="48" alt="Thanos" />
-      </a>
-      <br>Thanos
-    </td>
-  </tr>
 </table>
 
 <h2 align="left">Coding Activity</h2>
