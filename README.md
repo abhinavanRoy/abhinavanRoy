@@ -69,6 +69,12 @@
       </a>
       <br>Android Studio
     </td>
+     <td align="center" width="96">
+      <a href="#abhinavanRoy-tech" >
+        <img src="./img/kotlin.svg" width="48" height="48" alt="Kotlin" />
+      </a>
+      <br>Kotlin
+    </td>
   </tr>
     <td align="center" width="96">
       <a href="#abhinavanRoy-tech">
