@@ -15,9 +15,6 @@
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/abhinavanRoy?color=green&logo=github">
   </a>
 </p>
-<!-- <a href="#macropower-title"> -->
-<!--   <img src="https://raw.githubusercontent.com/abhinavanRoy/github-stats-transparent/output/generated/overview.svg" alt="macropower" align="right" /> -->
-<!-- </a> -->
 
 - :office: &nbsp;I'm currently working at **[Airtel Africa]** 
 - :seedling: &nbsp;I’m currently learning **Kotlin**
