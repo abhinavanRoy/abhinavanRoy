@@ -27,7 +27,7 @@
 
 <br>
 
-<h2 align="left" id="abhinavanRoy-tech">Favorite Tech</h2>
+<h2 align="left" id="abhinavanRoy-tech">Favourite Tech </h2>
 
 > Tools, languages, and other things that I like to work with.
 
