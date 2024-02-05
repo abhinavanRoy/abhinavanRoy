@@ -8,9 +8,6 @@
   <a href="https://stackoverflow.com/users/9569165">
     <img alt="Stack Exchange reputation" src="https://img.shields.io/stackexchange/stackoverflow/r/9569165?color=orange&label=reputation&logo=stackoverflow">
   </a>
-  <a href="https://reddit.com/u/-_ROy">
-    <img alt="Reddit User Karma" src="https://img.shields.io/reddit/user-karma/combined/-_ROy?label=karma&logo=reddit">
-  </a>
   <a href="https://github.com/abhinavanRoy?tab=followers">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/abhinavanRoy?color=green&logo=github">
   </a>
