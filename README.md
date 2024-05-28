@@ -32,23 +32,48 @@
       </a>
       <br>C++
     </td>
-    <td align="center" width="96">
+      <td align="center" width="96">
       <a href="#abhinavanRoy-tech">
-        <img src="./img/mysql-original.svg" width="48" height="48" alt="MySql" />
+        <img src="./img/javascript.svg" width="48" height="48" alt="JavaScript" />
       </a>
-      <br>MySql
+      <br>JavaScript
     </td>
-     <td align="center" width="96">
+       <td align="center" width="96">
       <a href="#abhinavanRoy-tech">
         <img src="./img/typescript-original.svg" width="48" height="48" alt="TypeScript" />
       </a>
       <br>TypeScript
     </td>
+        <td align="center" width="96">
+      <a href="#abhinavanRoy-tech">
+        <img src="./img/mysql-original.svg" width="48" height="48" alt="MySql" />
+      </a>
+      <br>MySql
+    </td>
+      <td align="center" width="96"> 
+      <a href="#abhinavanRoy-tech" >
+        <img src="./img/html.svg" width="48" height="48" alt="HTML" />
+      </a>
+      <br>HTML
+    </td>
+       <td align="center" width="96">
+      <a href="#abhinavanRoy-tech">
+        <img src="./img/sass.svg" width="48" height="48" alt="Sass" />
+      </a>
+      <br>Sass
+    </td>
+  </tr>
+         <td align="center" width="96">
+      <a href="#abhinavanRoy-tech">
+        <img src="./img/react.svg" width="48" height="48" alt="React" />
+      </a>
+      <br>React
+    </td>
     <td align="center" width="96">
       <a href="#abhinavanRoy-tech">
-        <img src="./img/javascript.svg" width="48" height="48" alt="JavaScript" />
+        <img src="./img/tailwind.svg" width="48" height="48" alt="Tailwind" />
       </a>
-      <br>JavaScript
+      <br>Tailwind
     </td>
     <td align="center" width="96">
       <a href="#abhinavanRoy-tech" >
@@ -56,36 +81,11 @@
       </a>
       <br>Adobe XD
     </td>
-   <td align="center" width="96">
-      <a href="#abhinavanRoy-tech" >
-        <img src="./img/android-studio.svg" width="48" height="48" alt="Android Studio" />
-      </a>
-      <br>Android Studio
-    </td>
-     <td align="center" width="96">
-      <a href="#abhinavanRoy-tech" >
-        <img src="./img/kotlin.svg" width="48" height="48" alt="Kotlin" />
-      </a>
-      <br>Kotlin
-    </td>
-  </tr>
     <td align="center" width="96">
-      <a href="#abhinavanRoy-tech">
-        <img src="./img/sass.svg" width="48" height="48" alt="Sass" />
-      </a>
-      <br>Sass
-    </td>
-      <td align="center" width="96"> 
       <a href="#abhinavanRoy-tech" >
-        <img src="./img/vsCode.svg" width="48" height="48" alt="VS Code" />
+        <img src="./img/figma.svg" width="48" height="48" alt="Figma" />
       </a>
-      <br>VS Code
-    </td>
-    <td align="center" width="96"> 
-      <a href="#abhinavanRoy-tech" >
-        <img src="./img/postgresql.svg" width="48" height="48" alt="PostgreSQL" />
-      </a>
-      <br>PostgreSQL
+      <br>Figma
     </td>
    <td align="center" width="96"> 
       <a href="#abhinavanRoy-tech" >
@@ -93,18 +93,7 @@
       </a>
       <br>Git
     </td>
-     <td align="center" width="96"> 
-      <a href="#abhinavanRoy-tech" >
-        <img src="./img/angular.svg" width="48" height="48" alt="Angular" />
-      </a>
-      <br>Angular
-    </td>
-     <td align="center" width="96"> 
-      <a href="#abhinavanRoy-tech" >
-        <img src="./img/html.svg" width="48" height="48" alt="HTML" />
-      </a>
-      <br>HTML
-    </td>
+   
 </table>
 
 <!-- links -->
