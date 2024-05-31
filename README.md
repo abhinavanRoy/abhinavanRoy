@@ -8,9 +8,9 @@
   <a href="https://stackoverflow.com/users/9569165">
     <img alt="Stack Exchange reputation" src="https://img.shields.io/stackexchange/stackoverflow/r/9569165?color=orange&label=reputation&logo=stackoverflow">
   </a>
-  <a href="https://github.com/abhinavanRoy?tab=followers">
+<!--   <a href="https://github.com/abhinavanRoy?tab=followers">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/abhinavanRoy?color=green&logo=github">
-  </a>
+  </a> -->
 </p>
 
 - :seedling: &nbsp;I’m currently learning **React**
