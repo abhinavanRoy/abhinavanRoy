@@ -96,12 +96,6 @@
    
 </table>
 
-<!-- Spotify now playing -->
-## Spotify Playing 🎧
-
-<!--START_SECTION:spotify-->[![Spotify](https://novatorem.vercel.app/api/spotify)](https://open.spotify.com/track/57lsYy0OZLNb5OQ7fEa3Hs)<!--END_SECTION:spotify-->
-
-
 <!-- links -->
 
 [Airtel Africa]: https://airtel.africa/#/ "Airtel Africa"
