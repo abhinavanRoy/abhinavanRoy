@@ -1,0 +1,88 @@
+name: Update Spotify Playing
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Runs every 30 minutes
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Update README with Spotify now playing
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: |
+          node << 'EOF'
+          const fs = require('fs');
+          const axios = require('axios');
+
+          const clientId = process.env.SPOTIFY_CLIENT_ID;
+          const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
+          const refreshToken = process.env.SPOTIFY_REFRESH_TOKEN;
+
+          const getAccessToken = async () => {
+            const response = await axios({
+              method: 'post',
+              url: 'https://accounts.spotify.com/api/token',
+              headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'Authorization': 'Basic ' + Buffer.from(clientId + ':' + clientSecret).toString('base64')
+              },
+              data: `grant_type=refresh_token&refresh_token=${refreshToken}`
+            });
+            return response.data.access_token;
+          };
+
+          const getCurrentlyPlayingTrack = async (accessToken) => {
+            const response = await axios({
+              method: 'get',
+              url: 'https://api.spotify.com/v1/me/player/currently-playing',
+              headers: {
+                'Authorization': 'Bearer ' + accessToken
+              }
+            });
+            return response.data;
+          };
+
+          (async () => {
+            const accessToken = await getAccessToken();
+            const currentlyPlayingTrack = await getCurrentlyPlayingTrack(accessToken);
+
+            let readme = fs.readFileSync('README.md', 'utf-8');
+
+            if (currentlyPlayingTrack && currentlyPlayingTrack.is_playing) {
+              const track = currentlyPlayingTrack.item;
+              const nowPlaying = `[![Spotify](https://novatorem.vercel.app/api/spotify)](https://open.spotify.com/track/${track.id})`;
+              readme = readme.replace(/<!--START_SECTION:spotify-->[\s\S]*<!--END_SECTION:spotify-->/, `<!--START_SECTION:spotify-->${nowPlaying}<!--END_SECTION:spotify-->`);
+            } else {
+              readme = readme.replace(/<!--START_SECTION:spotify-->[\s\S]*<!--END_SECTION:spotify-->/, `<!--START_SECTION:spotify-->Not playing anything currently.<!--END_SECTION:spotify-->`);
+            }
+
+            fs.writeFileSync('README.md', readme);
+          })();
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'Update Spotify playing track'
+          git push
