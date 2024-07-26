@@ -99,8 +99,7 @@
 <!-- Spotify now playing -->
 ## Spotify Playing 🎧
 
-<!--START_SECTION:spotify-->
-<!--END_SECTION:spotify-->
+<!--START_SECTION:spotify-->Not playing anything currently.<!--END_SECTION:spotify-->
 
 
 <!-- links -->
