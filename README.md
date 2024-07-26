@@ -96,6 +96,13 @@
    
 </table>
 
+<!-- Spotify now playing -->
+## Spotify Playing 🎧
+
+<!--START_SECTION:spotify-->
+<!--END_SECTION:spotify-->
+
+
 <!-- links -->
 
 [Airtel Africa]: https://airtel.africa/#/ "Airtel Africa"
