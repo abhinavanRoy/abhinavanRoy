@@ -99,7 +99,7 @@
 <!-- Spotify now playing -->
 ## Spotify Playing 🎧
 
-<!--START_SECTION:spotify-->Not playing anything currently.<!--END_SECTION:spotify-->
+<!--START_SECTION:spotify-->[![Spotify](https://novatorem.vercel.app/api/spotify)](https://open.spotify.com/track/2GAhgAjOhEmItWLfgisyOn)<!--END_SECTION:spotify-->
 
 
 <!-- links -->
