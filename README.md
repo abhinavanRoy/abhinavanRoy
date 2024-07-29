@@ -14,7 +14,7 @@
 </p>
 
 - :seedling: &nbsp;I’m currently learning **React**
-- :speech_balloon: &nbsp;I like to talk about **Tech**, **Gaming** and **Cosmos**
+- :speech_balloon: &nbsp;I like to talk about **Tech**, **Gaming** and **The Universe**
 - :mailbox: &nbsp;Ask me anything on my **[issues page]**
 - :handshake: &nbsp;Connect with me on **[LinkedIn]**
 
